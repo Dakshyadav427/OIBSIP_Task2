@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equip="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Daksh Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Raleway:wght@200;400&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: skyblue;
+            color: white;
+            font-family: 'Merriweather', serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: black;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(66, 132, 198);
+            font-size: 1.02rem;
+        }
+
+        main hr {
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.7rem;
+        }
+
+        .firstSection {
+            display: flex;
+            margin: 130px 0;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.7rem;
+        }
+
+        .leftSection .btn {
+            padding: 13px;
+            background: rgb(91, 4, 138);
+            color: white;
+            border: 2px solid white;
+            border-radius: 7px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .leftSection .buttons {
+            padding: 25px;
+        }
+
+        .rightSection img {
+            margin: 60px 0;
+        }
+
+        .darkpurple {
+            color: rgb(91, 4, 138);
+        }
+
+        .text-white {
+            color: white;
+        }
+
+        #element {
+            color: rgb(91, 4, 138);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            font-size: 1.1rem;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: rgb(91, 4, 138);
+            width: 77vw;
+            height: 2px;
+            margin: 60px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: rgb(91, 4, 138);
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 25px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: blueviolet;
+            width: 150px;
+            font-size: 13px;
+
+        }
+
+        footer {
+            background-color: rgb(11, 157, 214);
+        }
+
+        .footer {
+            display: flex;
+            padding: 25px 120px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: white;
+            font-size: 1rem;
+            padding: 13px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Daksh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Resume</a></li>
+                    <li><a href="/">Conact Information</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is<span class="darkpurple">Daksh</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="WebDeveloper1.png" width=470px height=350px>
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-white">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="Developer.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer(2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        I started working on HTML in 2010 and continued till 2012. During this time I worked on lot of
+                        things like backend and frontend
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Unreal Engine.png" alt="">
+                    <div class="vertical-title">
+                        Unreal Engine Developer(2012-2015)
+                    </div>
+                    <div class="vertical-desc">
+                        I love video games a lot so i started working on video game developement by working on Unreal
+                        Engine and made a few games like FPS and Puzzle.
+                    </div>
+                </div>
+
+
+                <div class="vertical">
+                    <img class="image-top" src="Game Designer.png" alt="">
+                    <div class="vertical-title">
+                        PC Game Designer(2015-2018)
+                    </div>
+                    <div class="vertical-desc">
+                        I designed some PC games from 2015 to 2018. These included puzzle elements games, RPG games, FPS
+                        games, Action and Adventure, etc.
+                    </div>
+                </div>
+
+
+                <div class="vertical">
+                    <img class="image-top" src="Console Logo.png" alt="">
+                    <div class="vertical-title">
+                        Console Game Designer(2018-2019)
+                    </div>
+                    <div class="vertical-desc">
+                        I also designed some console games during this period and learned a lot about console games like
+                        level design, boss design, assets, etc.
+                    </div>
+                </div>
+
+
+                <div class="vertical">
+                    <img class="image-top" src="Web Designer.png" alt="">
+                    <div class="vertical-title">
+                        Web Designer(2019-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        From 2019 to 2022 I worked as a web designer and worked on many applications such as Youtube,
+                        Instagram, Facebook, Twitter, etc
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Daksh's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contacts</li>
+                </ul>
+            </div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; Daksh'sportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Game Developer', 'Game Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
